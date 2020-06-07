@@ -1,4 +1,4 @@
-html{
+html,button{
     font-family: arial,sans-serif;
     font-size:15px;
     
@@ -13,6 +13,10 @@ body img ,#search{
     display:block;
     margin-left:auto;
     margin-right:auto;
+    position: relative;
+    width:auto;
+    top:100px;
+    
     
     
 }
@@ -24,9 +28,15 @@ body img ,#search{
 button{
     display:inline-block;
     position:relative;
+    background-color: whitesmoke;
+    border:none;
     left:43%;
+    top: 100px;
     
      
+}
+button:hover{
+    text-decoration: underline;
 }
 ul{
     list-style-type: none;
@@ -47,22 +57,20 @@ li a{
 li a:hover{
     text-decoration: underline;
 }
-li button{
+li .ba{
+   
     position: relative;
-    top: 20px;
-    margin-right: 60px;
-    text-align: center;
+    margin-top: 0.7em;
     color:white;
+    padding-top: 0.5em;
+    padding-bottom:0.5em;
     background-color: rgb(72, 133, 237);
     
-}
-li button:hover{
-    transform: scale(1.5);
 }
 
 div button a{
     text-decoration: none;
-    color:black;
+    color:grey;
     font-family: arial,sans-serif;
 }
 footer{
